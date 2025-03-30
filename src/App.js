@@ -1,13 +1,10 @@
-import "./App.css";
-import logo from "./logo.svg";
+import React from "react";
+import MainRoute from "./app/routes/mainRoute";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hiep dai ca</p>
-      </header>
+    <div className="bg-gray-100 min-h-screen">
+      <MainRoute />
     </div>
   );
 }

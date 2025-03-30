@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  position: fixed;
+  top: 60px; /* Điều chỉnh theo chiều cao của header */
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .menu {
+  display: flex;
+  justify-content: center;
+  border-bottom: none !important;
+  gap: 20px;
+}
+
+/* Hiệu ứng hover cho các mục menu */
+.navbar .menu .ant-menu-item {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar .menu .ant-menu-item:hover {
+  color: #1890ff !important;
+  background-color: #e6f7ff !important;
+}

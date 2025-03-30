@@ -1,0 +1,18 @@
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff; /* Màu nền nhẹ */
+  }
+  
+  .page-content {
+    width: 100%;
+    max-width: 1440px;
+    padding: 24px;
+    background: #fff;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    flex-grow: 1;
+    margin-top: 60px;
+  }
+  
